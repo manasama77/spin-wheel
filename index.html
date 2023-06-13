@@ -1,0 +1,29 @@
+<!-- source https://codingartistweb.com/2022/08/spin-wheel-app-with-javascript/ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPIN WHEEL</title>
+
+    <link rel="stylesheet" href="spin_wheel/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <canvas id="wheel"></canvas>
+        <button id="spin-btn">Spin</button>
+        <img src="spin_wheel/img/spinner-arrow-.svg" alt="arrow" />
+      </div>
+      <div id="final-value">
+        <p>Click On The Spin Button To Start</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+
+    <script src="spin_wheel/js/main.js"></script>
+  </body>
+</html>
